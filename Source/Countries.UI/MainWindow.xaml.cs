@@ -40,14 +40,6 @@ namespace Countries.UI
 
         }
 
-        protected override void OnActivated(EventArgs e)
-        {
-            base.OnActivated(e);
-
-
-
-        }
-
         /// <summary>
         /// Draw the chart when the window resizes
         /// </summary>
