@@ -1,0 +1,29 @@
+﻿<Window x:Class="Countries.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Countries Demo" Height="684.378" Width="1042.536" WindowStartupLocation="CenterScreen" >
+
+    <Grid >
+        <TabControl  >
+
+            <TabItem Header="Chart">
+                <Canvas x:Name="chartCanvas" >
+                    <Canvas.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                            <GradientStop Color="#FF7970CF" Offset="1"/>
+                            <GradientStop Color="White"/>
+                        </LinearGradientBrush>
+                    </Canvas.Background>
+
+                </Canvas>
+            </TabItem>
+
+            <TabItem Header="Data" >
+                <DataGrid x:Name="countriesGrid" IsReadOnly="True" Width="Auto" Height="Auto">
+
+                </DataGrid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
