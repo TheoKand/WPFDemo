@@ -8,7 +8,10 @@ This is a WPF Application developed in Visual Studio 2013 with C#. The following
  - Multi-threading for responsive UI during a lengthy operation
  - Drawing a chart without 3rd party components
 
-Screenshots:
-https://github.com/TheoKand/WPFDemo/blob/master/Screenshots/Screenshot2.png
-https://github.com/TheoKand/WPFDemo/blob/master/Screenshots/Screenshot1.png
-https://github.com/TheoKand/WPFDemo/blob/master/Screenshots/Screenshot3.png
+![Screenshot](https://github.com/TheoKand/WPFDemo/blob/master/Screenshots/Screenshot2.png)
+![Screenshot](https://github.com/TheoKand/WPFDemo/blob/master/Screenshots/Screenshot1.png)
+![Screenshot](https://github.com/TheoKand/WPFDemo/blob/master/Screenshots/Screenshot3.png)
+
+
+
+
